@@ -1,0 +1,12 @@
+<h1>Register</h1>
+
+<% errors.forEach(e => { %>
+  <p style="color:red"><%= e.msg %></p>
+<% }) %>
+
+<form method="POST" action="/register">
+    <input name="name" placeholder="name">
+    <input name="email" placeholder="Email">
+    <input type="password" name="password" placeholder="Password">
+    <button>Login</button>
+</form>

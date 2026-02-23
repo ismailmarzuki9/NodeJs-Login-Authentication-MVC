@@ -1,0 +1,39 @@
+A. 
+npm install express ejs mysql2 pg dotenv
+npm install express-validator
+npm install bcryptjs jsonwebtoken -> untuk has password 
+npm install -g nodemon --save-dev
+
+express → web framework
+ejs → template HTML
+mysql2 → MySQL driver
+pg → PostgreSQL driver
+dotenv → environment variable
+nodemon → auto reload
+---------------------------------
+
+B. create file
+mahasiswa-crud/
+│
+├── app.js
+├── package.json
+├── .env
+│
+├── config/
+│   └── database.js
+│
+├── routes/
+│   └── student.routes.js
+│
+├── controllers/
+│   └── student.controller.js
+│
+├── views/
+│   └── students/
+│       ├── index.ejs
+│       ├── create.ejs
+│       └── edit.ejs
+│
+└── public/
+
+buatkan script terminal otomatis seperti composer instal laravel

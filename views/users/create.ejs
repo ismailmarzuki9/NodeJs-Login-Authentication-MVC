@@ -1,0 +1,12 @@
+<h1>Tambah User</h1>
+
+<% errors.forEach(e => { %>
+  <p style="color:red"><%= e.msg %></p>
+<% }) %>
+
+<form method="POST" action="/users">
+    <input name="name" placeholder="Nama">
+    <input name="email" placeholder="Email">
+    <input name="password" placeholder="password">
+    <button>Simpan</button>
+</form>

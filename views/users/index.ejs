@@ -1,0 +1,9 @@
+<h1>Data User</h1>
+
+<a href="/users/create">Tambah</a>
+
+<ul>
+  <% users.forEach(u => { %>
+    <li><%= u.name %> - <%= u.email %></li>
+  <% }) %>
+</ul>
